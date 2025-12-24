@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int num = 50;
+    int num2 = 65;
+    int add = num + num2;
+    int sub = num - num2;
+    int mul = num * num2;
+    int div = num / num2;
+    int rem = num % num2;
+
+    printf("Add: %d\n",add);
+    printf("Sub: %d\n",sub);
+    printf("Mul: %d\n",mul);
+    printf("Div: %d\n",div);
+    printf("Rem: %d\n",rem);
+    num2++;
+    num--;
+    printf("Num2 updated value: %d\n",num2);
+    printf("Num updated value: %d\n",num);
+    return 0;
+}
+    
